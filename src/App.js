@@ -22,7 +22,6 @@ const firebaseConfig = {
   appId: "1:431252934048:web:f7612e32e03a04e754a8c5",
   measurementId: "G-WD0YTZ10D4",
 };
-
 const LobbyContext = React.createContext();
 
 function LobbyProvider(props) {
@@ -36,7 +35,6 @@ function LobbyProvider(props) {
   const joinLobby = async () => {
     await lobbyCollection.doc(uid).set({ email, displayName, ready: false, handle:"", rating:0,opponentEmail:"" });
   };
-
   const leaveLobby = async () => {
     await lobbyCollection.doc(uid).delete();
   };
