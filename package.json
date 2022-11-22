@@ -11,7 +11,7 @@
     "react": "0.0.0-experimental-33c3af284",
     "react-compound-timer": "^1.2.0",
     "react-dom": "0.0.0-experimental-33c3af284",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "reactfire": "^2.0.3"
   },
   "scripts": {
